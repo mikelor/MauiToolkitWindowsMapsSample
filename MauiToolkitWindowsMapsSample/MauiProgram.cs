@@ -10,7 +10,8 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-            .UseMauiCommunityToolkitMaps("Add-your-own-key-from-bingmapsportal.com")
+			.UseMauiMaps()
+            .UseMauiCommunityToolkitMaps("AvrW9DU83Bgpl6-CR_dARV2mQjBofnK_CJjHjDC_lCZc8CDzHNyQpijU19UhoIj1")
             .ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
